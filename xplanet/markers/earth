@@ -37,11 +37,11 @@
 # and
 # http://www.gnu.org/software/libc/manual/html_node/TZ-Variable.html
 
--25.07 -130.08 "Adamstown"                      timezone=Pacific/Pitcairn       # Pitcairn Island (UK)
+#-25.07 -130.08 "Adamstown"                      timezone=Pacific/Pitcairn       # Pitcairn Island (UK)
  61.22 -149.90 "Anchorage"                      timezone=America/Anchorage      # USA
 -13.80 -171.75 "Apia"                           timezone=Pacific/Apia           # Samoa
 -36.92  174.78 "Auckland %H:%M %Z (%a)"         timezone=Pacific/Auckland       # New Zealand
-  1.32  172.98 "Bairiki"                        timezone=Pacific/Tarawa         # Kiribati
+#  1.32  172.98 "Bairiki"                        timezone=Pacific/Tarawa         # Kiribati
  13.73  100.50 "Bangkok"                        timezone=Asia/Bangkok           # Thailand
  52.53   13.42 "Berlin"                         timezone=Europe/Berlin          # Germany
   4.63  -74.08 "Bogotá"                         timezone=America/Bogota        # Colombia
@@ -94,13 +94,13 @@
  45.50  -73.60 "Montréal"                      timezone=America/Montreal       # Canada
  55.75   37.70 "Moscow"                         timezone=Europe/Moscow          # Russia
   2.03   45.35 "Muqdisho"                       timezone=Africa/Mogadishu       # Somalia
- 20.98  -89.65 "Mérida"                         timezone=America/Merida        # Mexico
+# 20.98  -89.65 "Mérida"                         timezone=America/Merida        # Mexico
  12.17   14.98 "NDjamena"                       timezone=Africa/Ndjamena        # Chad
  -1.28   36.83 "Nairobi"                        timezone=Africa/Nairobi         # Kenya
  40.70  -74.00 "New York"			timezone=America/New_York       # USA
  13.53    2.08 "Niamey"                         timezone=Africa/Niamey          # Niger
  18.15  -15.97 "Nouakchott"                     timezone=Africa/Nouakchott      # Mauritania
--17.53 -149.57 "Papeete"                        timezone=Pacific/Tahiti         # French Polynesia
+-17.53 -149.57 "Tahiti"                        timezone=Pacific/Tahiti         # French Polynesia
 -31.97  115.82 "Perth %H:%M %Z"                 timezone=Australia/Perth        # Australia
  -9.5   147.17 "Port Moresby"                   timezone=Pacific/Port_Moresby   # Papua New Guinea
  39.00  125.78 "P'yongyang"                     timezone=Asia/Pyonyang          # North Korea
@@ -112,7 +112,7 @@
  37.53  127.00 "Seoul"                          timezone=Asia/Seoul             # South Korea
  31.10  121.37 "Shanghai"                       timezone=Asia/Shanghai          # China
   1.28  103.85 "Singapore"                      timezone=Asia/Singapore         # Singapore
--51.75  -57.93 "Stanley"                        timezone=Atlantic/Stanley       # Falkland Islands
+#-51.75  -57.93 "Stanley"                        timezone=Atlantic/Stanley       # Falkland Islands
 -18.13  178.42 "Suva"                           timezone=Pacific/Fiji           # Fiji
 -33.92  151.17 "Sydney"                         timezone=Australia/Sydney       # Australia
 -23.55  -46.65 "São Paulo"                      timezone=America/Sao_Paulo     # Brazil
@@ -122,7 +122,7 @@
  36.83   10.22 "Tunis"                          timezone=Africa/Tunis           # Tunisia
  47.90  106.87 "Ulaanbaatar"                    timezone=Asia/Ulaanbaatar       # Mongolia
  49.22 -123.10 "Vancouver"                      timezone=America/Vancouver      # Canada
- 60.72 -135.05 "Whitehorse"                     timezone=America/Whitehorse     # Canada
+# 60.72 -135.05 "Whitehorse"                     timezone=America/Whitehorse     # Canada
 -22.57   17.10 "Windhoek"                       timezone=Africa/Windhoek        # Namibia
  62.17  129.83 "Yakutsk"                        timezone=Asia/Yakutsk           # Russia
  62.50 -114.48 "Yellowknife"                    timezone=America/Yellowknife    # Canada
@@ -148,7 +148,7 @@
 # 44.43   26.10 "Bucharest"                      timezone=Europe/Bucharest      # Romania
 # 22.50   88.33 "Calcutta"                       timezone=Asia/Calcutta         # India
 # 13.08   80.30 "Chennai"                        timezone=Asia/Calcutta         # India
-# 41.85  -87.65 "Chicago"                        timezone=America/Chicago       # USA
+41.85  -87.65 "Chicago"                        timezone=America/Chicago       # USA
 # 29.56  106.56 "Chongqing"                      timezone=Asia/Chungking        # China
 # 25.20   55.27 "Dubai"                          timezone=Asia/Dubai            # UAE
 # 44.63  -63.58 "Halifax"                        timezone=America/Halifax       # Canada
@@ -162,7 +162,7 @@
 #-25.97   32.58 "Maputo"                         timezone=Africa/Maputo         # Mozambique
 # 23.62   58.63 "Masqat"                         timezone=Asia/Muscat           # Oman
 # 21.45   39.82 "Mecca"                          timezone=Asia/Riyadh           # Saudi Arabia
-# 25.77  -80.18 "Miami"                          timezone=America/New_York      # USA
+25.77  -80.18 "Miami"                          timezone=America/New_York      # USA
 #-34.92  -56.17 "Montevideo"                     timezone=America/Montevideo    # Uruguay
 #-11.67   43.27 "Moroni"                         timezone=Indian/Comoro         # Comoro Islands
 #-22.27  166.43 "Noumea"                         timezone=Pacific/Noumea        # New Caledonia
@@ -175,12 +175,12 @@
 # -0.90  -89.60 "Puerto Baquerizo Moreno"        timezone=Pacific/Galapagos     # Ecuador
 # 16.78   96.17 "Rangoon"                        timezone=Asia/Rangoon          # Myanmar
 # 41.88   12.50 "Rome"                           timezone=Europe/Rome           # Italy
-# 18.48  -66.13 "San Juan"                       timezone=America/Puerto_Rico   # Puerto Rico
+18.48  -66.13 "San Juan"                       timezone=America/Puerto_Rico   # Puerto Rico
 # 18.50  -69.95 "Santo Domingo"                  timezone=America/Santo_Domingo # Dominican Republic
 # 47.60 -122.32 "Seattle"                        timezone=America/Los_Angeles   # USA
 # 59.33   18.08 "Stockholm"                      timezone=Europe/Stockholm      # Sweden
 # 25.02  121.37 "Taipei"                         timezone=Asia/Taipei           # Taiwan
-# 14.08  -87.23 "Tegucigalpa"                    timezone=America/Tegucigalpa   # Honduras
+14.08  -87.23 "Tegucigalpa"                    timezone=America/Tegucigalpa   # Honduras
 # 32.08   34.77 "Tel Aviv"                       timezone=Asia/Tel_Aviv         # Israel
 # 43.70  -79.42 "Toronto"                        timezone=America/Montreal      # Canada
 # -5.15  119.47 "Ujung Pandang"                  timezone=Asia/Ujung_Pandang    # Indonesia

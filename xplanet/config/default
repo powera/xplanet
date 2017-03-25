@@ -109,7 +109,7 @@ color={28, 82, 110}
 #night_map=alice_springs_night.png
 #mapbounds={-1.2,98.7107,-46.2,169.023}  # lat1, lon1, lat2, lon2
 
-#marker_file=earth
+marker_file=earth
 
 min_radius_for_label=0
 
